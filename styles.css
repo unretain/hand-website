@@ -260,6 +260,50 @@ body {
     transform: translateX(4px);
 }
 
+/* Contract Address */
+.contract-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 32px;
+    padding: 16px 24px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 980px;
+    flex-wrap: wrap;
+}
+
+.ca-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-light-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ca-code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 14px;
+    color: var(--text-light);
+    word-break: break-all;
+}
+
+.ca-copy {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 980px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s var(--ease-apple);
+}
+
+.ca-copy:hover {
+    background: var(--accent-hover);
+}
+
 .hero-image {
     max-width: 900px;
     width: 100%;
